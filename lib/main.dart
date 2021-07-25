@@ -5,11 +5,12 @@
 // 3) Split the app into three widget: App, TextControl & Text
 
 import 'package:flutter/material.dart';
+import 'package:flutter_assignment_one/text_control.dart';
 
 main() {
   runApp(MyApp());
 }
-//// hello 
+
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -18,6 +19,7 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text("Assignment 1"),
         ),
+        body: TextControl(),
       ),
     );
   }
